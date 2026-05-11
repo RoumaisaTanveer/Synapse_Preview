@@ -42,18 +42,48 @@ Most teams fail not because of skill — but because of mismatch in personality,
 
 It combines heuristic scoring, personality clustering, and machine learning to form effective teams.
 
+
 ---
 
 ## <img src="https://img.shields.io/badge/02-Collaboration%20That%20Works-6FE3E1?style=for-the-badge" />
 
-> No noise. No random connections.
+<br/>
 
-Synapse only connects users when compatibility is strong enough.
+Most collaboration tools give you a group chat and wish you luck. **Synapse is different.**
+
+> *No noise. No cold approaches. No random DMs going nowhere.*
+
+Synapse is a **qualified collaboration network** — you only get connected when the match score is high enough to justify it. If the compatibility threshold isn't met, the connection doesn't happen.
+
+<br/>
 
 ```
 Match ≥ threshold → connect
 Match < threshold → no connection
 ```
+
+<br/>
+
+
+
+| | What this means for you ? |
+|:---:|:---|
+| - | **Zero cold approach problem** — never thrown into a room with strangers hoping something sticks |
+| - | **Quality over quantity** — fewer connections, every one worth pursuing |
+| - | **Signal, not noise** — matches filtered by compatibility first, always |
+| - | **Built-in trust** — when Synapse connects you, both sides know *why* |
+
+
+
+<br/>
+
+> 💬 *Think less LinkedIn cold outreach — more warm intro, backed by AI, personality science, and real data.*
+
+<br/>
+
+> No noise. No random connections.
+
+
 
 ---
 
@@ -135,8 +165,8 @@ Core ML + matching engine excluded
 
 | Name | Contact |
 |--|--|
-| Khadija Subhani | mailto:khadijasubhani12@gmail.com |
-| Roumaisa Tanveer | mailto:roumaisatanveer6@gmail.com |
+| Khadija Subhani | khadijasubhani12@gmail.com |
+| Roumaisa Tanveer | roumaisatanveer6@gmail.com |
 
 ---
 
