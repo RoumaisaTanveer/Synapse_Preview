@@ -2,7 +2,7 @@
 
 <br/>
 
-# ⚡ Synapse
+#  Synapse
 
 <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=300&size=18&pause=2000&color=B47AFF&center=true&vCenter=true&width=600&lines=Connect+Minds.+Build+Teams." alt="tagline" />
 
@@ -22,6 +22,8 @@
 &nbsp;
 ![Platform](https://img.shields.io/badge/Android-b47aff?style=flat-square)
 &nbsp;
+
+
 ![FYP](https://img.shields.io/badge/PUCIT%202026-ffffff?style=flat-square)
 
 <br/><br/>
@@ -29,6 +31,10 @@
 </div>
 
 ## 🎥 Preview
+
+
+
+https://github.com/user-attachments/assets/062809f5-53b5-4eb6-8874-ee6beaaa8475
 
 
 
