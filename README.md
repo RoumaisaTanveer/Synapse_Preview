@@ -1,161 +1,147 @@
-# Synapse — AI-Powered Team Matching Platform Preview
+<div align="center">
 
-_**Connect minds, Build teams**_
+<br/>
 
----
+# ⚡ Synapse
 
-## 📌 What is Synapse?
+<img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=300&size=18&pause=2000&color=B47AFF&center=true&vCenter=true&width=600&lines=Connect+Minds.+Build+Teams." alt="tagline" />
 
-Synapse is an intelligent team formation platform built for student developers and project collaborators. It goes beyond basic skill matching by combining:
+<br/>
 
-- Heuristic scoring  
-- Personality clustering  
-- Machine learning  
+<img src="https://img.shields.io/badge/Good%20ideas%20don't%20fail-Bad%20teams%20do-b47aff?style=for-the-badge&labelColor=0a0a0b" />
 
-This ensures teams are not just technically compatible — but also **interpersonally effective**.
+<br/><br/>
 
----
+[![Download APK](https://img.shields.io/badge/⬇%20Download%20APK-v1.0%20Android-b47aff?style=for-the-badge)](https://github.com/khadijayy/synapse_frontend/releases/download/InitialRelease/app-release.apk)
+&nbsp;
+[![Landing Page](https://img.shields.io/badge/🌐%20Landing%20Page-Live%20Now-6FE3E1?style=for-the-badge)](https://synapse-get-app.netlify.app/)
 
-## 🚀 Key Features
+<br/>
 
-- **3-Layer Hybrid Matching Engine**  
-  Skill coverage + personality clustering + ML-based prediction  
+![Status](https://img.shields.io/badge/Status-Live-6FE3E1?style=flat-square)
+&nbsp;
+![Platform](https://img.shields.io/badge/Android-b47aff?style=flat-square)
+&nbsp;
+![FYP](https://img.shields.io/badge/PUCIT%202026-ffffff?style=flat-square)
 
-- **SHAP Explainability**  
-  Every match includes a clear explanation  
+<br/><br/>
 
-- **Proximity-Aware Matching**  
-  GPS-based cohort filtering  
+</div>
 
-- **Volunteer Mentor System**  
-  Special matching logic for mentors  
+## 🎥 Preview
 
-- **Real-Time Messaging**  
-  Auto-created group chats on team confirmation  
-
-- **Project Health Dashboard**  
-  Tracks conflict safety, velocity, and engagement  
-
-- **React Admin Panel**  
-  Live analytics with API integration  
-
----
-
-## 🛠 Tech Stack
-
-| Layer            | Technology |
-|-----------------|-----------|
-| Backend         | FastAPI, Python 3.12 |
-| Database        | PostgreSQL (JSONB, pgAdmin) |
-| Mobile Client   | Flutter |
-| Admin Panel     | React |
-| ML Engine       | scikit-learn (K-Means, Random Forest), SHAP |
-| Auth            | JWT |
-| Notifications   | Firebase FCM |
-| Deployment      | Uvicorn + Procfile |
-
----
-
-## 🧠 Matching Algorithm
-
-Synapse uses a **3-layer weighted hybrid approach**:
-Final Score = 0.60 × Heuristic + 0.20 × Personality + 0.20 × ML Predictor
-
-### 🔹 Layer 1 — Heuristic Skill Coverage (60%)
-- Uses a `min()` cap formula across 33 skill domains  
-- Prevents over-reliance on a single shared skill  
-
-### 🔹 Layer 2 — Personality Clustering (20%)
-- K-Means clustering on Big Five (OCEAN) + DISC traits  
-- 6 clusters  
-- Prefers complementary personalities over identical ones  
-
-### 🔹 Layer 3 — Random Forest Predictor (20%)
-- Trained on historical team performance data  
-- SHAP values explain match decisions  
-
-### ⚡ Soft Factors (Overlayed)
-- Mood score  
-- Cohort proximity (Haversine distance)  
-- Role diversity bonus  
-- Budget alignment  
-
----
-
-## 📂 Project Structure
-## 📂 Project Structure
-
-    app/
-    ├── api/v1/
-    │   ├── auth.py
-    │   ├── matching.py
-    │   ├── profiles.py
-    │   ├── teams.py
-    │   ├── messaging.py
-    │   ├── mentors.py
-    │   ├── project_health.py
-    │   ├── project_tasks.py
-    │   ├── admin.py
-    │   ├── feedback.py
-    │   └── roles.py
-    │
-    ├── core/
-    │   ├── team_builder.py
-    │   ├── mentor_matching.py
-    │   ├── profile_scorer.py
-    │   ├── feedback_engine.py
-    │   ├── messaging_engine.py
-    │   ├── checkin_service.py
-    │   ├── security.py
-    │   └── config.py
-    │
-    ├── models/      # SQLAlchemy models
-    ├── schemas/     # Pydantic schemas
-    ├── services/    # Email & push notifications
-    └── db/          # Database session
-
-    suggestive_matching_engine/
-    ├── algorithms/
-    │   ├── matching.py
-    │   ├── clustering.py
-    │   └── predictor.py
-    └── app.py
-
----
-
-## 🔗 Key API Endpoint
-
-
-GET /matching/suggestions?top_n=5&task_type=backend&explain=true
-
-
-Returns ranked team suggestions with **SHAP-based explanations**.
-
----
-
-## 📊 Project Status
-
- **Final Year Project at PUCIT**  
 
 
 ---
 
-## 🎥 Demo
+## <img src="https://img.shields.io/badge/01-What%20is%20Synapse%3F-b47aff?style=for-the-badge" />
 
-- 🔗 Coming Soon  
-- 📄 FYP Report / Research Paper — available on request  
+Synapse is an intelligent team formation platform for university students.
+
+Most teams fail not because of skill — but because of mismatch in personality, workload, and direction.
+
+It combines heuristic scoring, personality clustering, and machine learning to form effective teams.
+
+---
+
+## <img src="https://img.shields.io/badge/02-Collaboration%20That%20Works-6FE3E1?style=for-the-badge" />
+
+> No noise. No random connections.
+
+Synapse only connects users when compatibility is strong enough.
+
+```
+Match ≥ threshold → connect
+Match < threshold → no connection
+```
 
 ---
 
-## 📎 Notes
+## <img src="https://img.shields.io/badge/03-Key%20Features-b47aff?style=for-the-badge" />
 
-This repository is intended for **public showcase** and demonstration purposes.
+| Feature | Detail |
+|:--|:--|
+| ⚡ Hybrid Matching | Skills + personality + ML |
+| ◉ Explainable AI | Why each match happened |
+| ✦ Proximity | Nearby student detection |
+| ◌ Mentorship | Skill-based mentor pairing |
+| ✧ Messaging | Auto group creation |
+| ◌ Dashboard | Team health tracking |
+| ⌁ Admin Panel | Live analytics |
 
 ---
-## 🔒 Repository Scope
 
-This repository is intended for **demonstration and showcase purposes only**.
+## <img src="https://img.shields.io/badge/04-Matching%20Algorithm-6FE3E1?style=for-the-badge" />
 
-Core components such as the **matching engine, proprietary algorithms, and production-level logic are not included** in this public version.
+```
+Final Score =
+0.60 Skill Coverage +
+0.20 Personality +
+0.20 ML Model
+```
 
-If you are interested in the full system design or implementation details, feel free to reach out.
+### Layers
+
+**1. Skill Coverage**
+- 33 domains
+- balanced distribution
+
+**2. Personality**
+- Big Five + DISC clustering
+- complementary matching
+
+**3. ML Model**
+- Random Forest
+- SHAP explainability
+
+---
+
+## <img src="https://img.shields.io/badge/05-How%20It%20Works-b47aff?style=for-the-badge" />
+
+```
+1 Build Profile
+2 AI Matching
+3 Proximity Check
+4 Mentor Match
+5 Team Monitoring
+6 Project Delivery
+```
+
+---
+
+## <img src="https://img.shields.io/badge/06-Tech%20Stack-6FE3E1?style=flat-square" />
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square)
+![Sklearn](https://img.shields.io/badge/ML-F7931E?style=flat-square)
+![Firebase](https://img.shields.io/badge/FCM-FFCA28?style=flat-square)
+![JWT](https://img.shields.io/badge/Auth-000000?style=flat-square)
+
+---
+
+## <img src="https://img.shields.io/badge/07-Repository%20Scope-b47aff?style=for-the-badge" />
+
+> Demo version only  
+Core ML + matching engine excluded
+
+---
+
+## <img src="https://img.shields.io/badge/08-Built%20By-6FE3E1?style=for-the-badge" />
+
+**PUCIT Final Year Project 2026**
+
+| Name | Contact |
+|--|--|
+| Khadija Subhani | mailto:khadijasubhani12@gmail.com |
+| Roumaisa Tanveer | mailto:roumaisatanveer6@gmail.com |
+
+---
+
+<div align="center">
+
+💜 Good ideas don't fail. Bad teams do.
+
+</div>
